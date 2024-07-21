@@ -1,7 +1,14 @@
 name: Collect HTV coins
 on:
     schedule:
-      - cron: "0 */3 * * *"
+      - cron: "39 20 * * *"
+      - cron: "40 23 * * *"
+      - cron: "41 2 * * *"
+      - cron: "34 5 * * *"
+      - cron: "35 8 * * *"
+      - cron: "36 11 * * *"
+      - cron: "37 14 * * *"
+      - cron: "38 17 * * *"
     workflow_dispatch:
 
 env:
